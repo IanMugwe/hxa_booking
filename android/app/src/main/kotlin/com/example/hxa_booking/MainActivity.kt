@@ -1,5 +1,2 @@
-package com.example.hxa_booking
+// Old MainActivity moved to com.hxa.booking; this file is deprecated.
 
-import io.flutter.embedding.android.FlutterActivity
-
-class MainActivity : FlutterActivity()
