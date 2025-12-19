@@ -1,4 +1,9 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hxa.booking">
+    <!-- package: update to your app's applicationId as needed -->
+
+    <!-- Common permissions used by Flutter apps -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:label="hxa_booking"
         android:name="${applicationName}"

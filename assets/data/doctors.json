@@ -1,0 +1,24 @@
+[
+  {
+    "id": "d1",
+    "name": "Dr. Aiden Scott",
+    "specialization": "Ophthalmologist",
+    "fee": 56.0,
+    "currency": "$",
+    "availability": {
+      "2025-12-21": ["09:00","10:00","11:00"],
+      "2025-12-22": ["13:00","14:00"]
+    }
+  },
+  {
+    "id": "d2",
+    "name": "Dr. Emma Blake",
+    "specialization": "Gynecologist",
+    "fee": 75.0,
+    "currency": "$",
+    "availability": {
+      "2025-12-21": ["10:00","12:00"],
+      "2025-12-23": ["09:00","11:00"]
+    }
+  }
+]

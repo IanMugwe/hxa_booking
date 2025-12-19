@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.hxa_booking"
+    namespace = "com.hxa.booking"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -20,8 +20,10 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.hxa_booking"
+        // Set applicationId to match AndroidManifest package
+        applicationId = "com.hxa.booking"
+        // Provide manifest placeholders used in AndroidManifest.xml
+        manifestPlaceholders += mapOf("applicationName" to "io.flutter.app.FlutterApplication")
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
