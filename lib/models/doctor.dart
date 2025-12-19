@@ -1,5 +1,7 @@
 import 'package:hive/hive.dart';
 
+/// Doctor model for Hive local storage. Includes availability map for time slots.
+
 class Doctor {
   final String id;
   final String name;
@@ -8,6 +10,7 @@ class Doctor {
   final String currency;
   final Map<String, List<String>> availability; // e.g., {"2025-12-21": ["09:00","10:00"]}
 
+/// Represents a doctor with available time slots and consultation details.
   Doctor({
     required this.id,
     required this.name,
@@ -19,6 +22,7 @@ class Doctor {
 }
 
 class DoctorAdapter extends TypeAdapter<Doctor> {
+/// Hive adapter for Doctor model.
   @override
   final int typeId = 2;
 

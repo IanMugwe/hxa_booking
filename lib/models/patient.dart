@@ -1,19 +1,21 @@
 import 'package:hive/hive.dart';
 
+/// Patient model for Hive local storage.
+
+/// Represents a patient/user in the app.
 class Patient {
   final String id;
   final String username;
   final String password;
-  final String? name;
 
   Patient({
     required this.id,
     required this.username,
     required this.password,
-    this.name,
   });
 }
 
+/// Hive adapter for Patient model.
 class PatientAdapter extends TypeAdapter<Patient> {
   @override
   final int typeId = 3;
@@ -23,8 +25,7 @@ class PatientAdapter extends TypeAdapter<Patient> {
     final id = reader.readString();
     final username = reader.readString();
     final password = reader.readString();
-    final name = reader.readString();
-    return Patient(id: id, username: username, password: password, name: name);
+    return Patient(id: id, username: username, password: password);
   }
 
   @override
@@ -32,6 +33,5 @@ class PatientAdapter extends TypeAdapter<Patient> {
     writer.writeString(obj.id);
     writer.writeString(obj.username);
     writer.writeString(obj.password);
-    writer.writeString(obj.name ?? '');
   }
 }
