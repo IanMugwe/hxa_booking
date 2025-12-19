@@ -14,7 +14,7 @@ class DoctorRepository {
     if (box.isNotEmpty) return;
 
     // Load JSON from assets
-      final String data = await rootBundle.loadString('lib/assets/data/doctors.json');
+    final String data = await rootBundle.loadString('lib/assets/data/doctors.json');
     final List<dynamic> jsonList = jsonDecode(data);
 
     for (var docJson in jsonList) {
