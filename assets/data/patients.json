@@ -1,6 +1,0 @@
-[
-  {"id":"p1","username":"alice","password":"password123","name":"Alice"},
-  {"id":"p2","username":"bob","password":"secret","name":"Bob"},
-  {"id":"p3","username":"patient1","password":"pass123","name":"Patient One"},
-  {"id":"p4","username":"patient2","password":"pass123","name":"Patient Two"}
-]
