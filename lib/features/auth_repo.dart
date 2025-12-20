@@ -12,7 +12,7 @@ class AuthRepository {
 
     if (box.isNotEmpty) return;
 
-    final String data = await rootBundle.loadString('assets/data/patients.json');
+    final String data = await rootBundle.loadString('assets/patients.json');
     final List<dynamic> jsonList = jsonDecode(data);
 
     for (var patJson in jsonList) {

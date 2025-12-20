@@ -1,0 +1,151 @@
+[
+    {
+        "id": "doc_1",
+        "name": "Dr. Sarah Omondi",
+        "specialization": "Cardiologist",
+        "fee": 200,
+        "currency": "kes",
+        "availability": {
+            "Monday": [
+                "09:00",
+                "17:00"
+            ],
+            "Tuesday": [
+                "09:00",
+                "17:00"
+            ],
+            "Wednesday": [
+                "09:00",
+                "17:00"
+            ],
+            "Thursday": [
+                "09:00",
+                "17:00"
+            ],
+            "Friday": [
+                "09:00",
+                "17:00"
+            ]
+        }
+    },
+    {
+        "id": "doc_2",
+        "name": "Dr. John Kamau",
+        "specialization": "General Practitioner",
+        "fee": 500,
+        "currency": "kes",
+        "availability": {
+            "Monday": [
+                "08:00",
+                "18:00"
+            ],
+            "Tuesday": [
+                "08:00",
+                "18:00"
+            ],
+            "Wednesday": [
+                "08:00",
+                "18:00"
+            ],
+            "Thursday": [
+                "08:00",
+                "18:00"
+            ],
+            "Friday": [
+                "08:00",
+                "18:00"
+            ],
+            "Saturday": [
+                "08:00",
+                "18:00"
+            ]
+        }
+    },
+    {
+        "id": "doc_3",
+        "name": "Dr. Mary Wanjiku",
+        "specialization": "Pediatrician",
+        "fee": 1500,
+        "currency": "kes",
+        "availability": {
+            "Monday": [
+                "10:00",
+                "16:00"
+            ],
+            "Tuesday": [
+                "10:00",
+                "16:00"
+            ],
+            "Wednesday": [
+                "10:00",
+                "16:00"
+            ],
+            "Thursday": [
+                "10:00",
+                "16:00"
+            ],
+            "Friday": [
+                "10:00",
+                "16:00"
+            ]
+        }
+    },
+    {
+        "id": "doc_4",
+        "name": "Dr. Peter Otieno",
+        "specialization": "Dermatologist",
+        "fee": 1200,
+        "currency": "kes",
+        "availability": {
+            "Monday": [
+                "09:00",
+                "15:00"
+            ],
+            "Tuesday": [
+                "09:00",
+                "15:00"
+            ],
+            "Wednesday": [
+                "09:00",
+                "15:00"
+            ],
+            "Thursday": [
+                "09:00",
+                "15:00"
+            ],
+            "Friday": [
+                "09:00",
+                "15:00"
+            ]
+        }
+    },
+    {
+        "id": "doc_5",
+        "name": "Dr. Grace Akinyi",
+        "specialization": "Psychiatrist",
+        "fee": 1800,
+        "currency": "kes",
+        "availability": {
+            "Monday": [
+                "11:00",
+                "17:00"
+            ],
+            "Tuesday": [
+                "11:00",
+                "17:00"
+            ],
+            "Wednesday": [
+                "11:00",
+                "17:00"
+            ],
+            "Thursday": [
+                "11:00",
+                "17:00"
+            ],
+            "Friday": [
+                "11:00",
+                "17:00"
+            ]
+        }
+    }
+]
