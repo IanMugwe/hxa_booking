@@ -1,6 +1,7 @@
 
 // Main entry point for the Flutter app. Sets up Hive, seeds data, and launches the UI.
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'data/repositories/doctor_repo.dart';
 import 'features/auth_repo.dart';
@@ -49,6 +50,11 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           locale: lang.locale,
           supportedLocales: const [Locale('en'), Locale('sw')],
+          localizationsDelegates: const [
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+          ],
           theme: AppTheme.theme,
           home: const EntryPoint(),
         );
