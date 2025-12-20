@@ -1,0 +1,12 @@
+[
+{
+    "id" : "1",
+    "username" : "patient1",
+    "password" : "pass123"
+},
+{
+    "id" : "2",
+    "username" : "patient2",
+    "password" : "pass123"
+}
+]

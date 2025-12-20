@@ -11,7 +11,7 @@ class LanguageProvider extends ChangeNotifier {
   }
 
   String t(String key) {
-    final Map<String, Map<String, String>> _translations = {
+    final Map<String, Map<String, String>> translations = {
       'en': {
         'login_title': 'Login',
         'username': 'Username',
@@ -43,6 +43,6 @@ class LanguageProvider extends ChangeNotifier {
     };
 
     final lang = _locale.languageCode;
-    return _translations[lang]?[key] ?? key;
+    return translations[lang]?[key] ?? key;
   }
 }

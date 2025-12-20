@@ -44,7 +44,7 @@ class _BookingScreenState extends State<BookingScreen> {
           Text(widget.doctor.specialization),
           const SizedBox(height: 12),
           DropdownButtonFormField<String>(
-            value: _selectedDate,
+            initialValue: _selectedDate,
             items: widget.doctor.availability.keys.map((d) => DropdownMenuItem(value: d, child: Text(d))).toList(),
             onChanged: (v) => setState(() {
               _selectedDate = v;
@@ -55,7 +55,7 @@ class _BookingScreenState extends State<BookingScreen> {
           ),
           const SizedBox(height: 12),
           DropdownButtonFormField<String>(
-            value: _selectedTime,
+            initialValue: _selectedTime,
             items: times.map((t) => DropdownMenuItem(value: t, child: Text(t))).toList(),
             onChanged: (v) => setState(() => _selectedTime = v),
             decoration: InputDecoration(labelText: lang.t('select_time')),
