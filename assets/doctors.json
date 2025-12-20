@@ -3,7 +3,7 @@
         "id": "doc_1",
         "name": "Dr. Sarah Omondi",
         "specialization": "Cardiologist",
-        "fee": 200,
+        "fee": 2000,
         "currency": "kes",
         "availability": {
             "Monday": [
